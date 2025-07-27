@@ -1,38 +1,95 @@
 # A Blue Moon – Fallout: New Vegas Modlist
 
-*A Blue Moon* is a complete visual and gameplay overhaul for Fallout: New Vegas, designed to modernize the game while preserving its heart. Built using Wabbajack, the list incorporates difficulty and survival enhancements from mods like LoneStar and Vicious Wastes, along with comprehensive graphical updates to bring the game closer to modern standards.
+---
 
-Whether you're returning to the Mojave or discovering it for the first time, this list is for you.
+## Table of Contents
+- [Introduction](#Introduction)
+- [Features](#features)  
+- [Recommended Specs](#recommended-specs)  
+- [Installation](#installation)  
+- [Optional Tools and Enhancements](#optional-tools-and-enhancements)  
+- [Troubleshooting](#troubleshooting)  
+- [Known Issues & Notes](#known-issues--notes)  
+- [Feedback & Support](#feedback--support)  
+- [Final Thoughts](#final-thoughts)  
+- [Additional Notes](#additional-notes)  
+- [Changelog](#changelog)  
+- [Special Thanks](#special-thanks)  
+- [Thank You](#thank-you)  
+
+---
+
+# Introduction
+
+*A Blue Moon* is a complete visual and gameplay overhaul for **Fallout: New Vegas**, designed to modernize the game while preserving its heart. Built using **Wabbajack**, this modlist incorporates difficulty and survival enhancements from mods like **LoneStar** and **Vicious Wastes**, alongside comprehensive graphical updates to bring the Mojave closer to modern visual standards. My goal is to make the Mojave feel truly lived-in and deliver an experience that highlights just how harsh and unforgiving the wasteland can be showing how difficult survival really is.
+
+This is a **hardcore survival-focused list**, blending elements from my good friend Rage’s list *Wasteland Prospects* into my vision of an ideal *New Vegas*. Some gameplay mechanics and difficulty tweaks may feel familiar if you’ve played his list, while others are uniquely tailored here. We do use similar mods to adjust difficulty but with our own distinct approach.
+
+Whether you're returning to the wasteland or exploring it for the first time—this list is for you.
 
 ---
 
 ## Features
 
-- Overhauled visuals with updated textures, lighting, weather, and effects
-- Difficulty and gameplay tuning through LoneStar and Vicious Wastes
-- Refined combat mechanics, smarter AI, and deeper survival systems
-- Modernized UI through Vanilla UI Plus and Vanilla UI Extension along with M.U.X
-- Fully modular through MO2, Wabbajack-ready with just a few manual downloads
-- Intended for a **hardcore survival experience**, with scarcity-driven balance and an embrace of the Mojave’s brutality
-- Visual design tailored to reflect **my personal vision of an ideal New Vegas**
+- Overhauled visuals with updated textures, lighting, weather, and effects  
+- Difficulty and gameplay tuning through **LoneStar** and **Vicious Wastes**  
+- Refined combat mechanics, smarter AI, and deeper survival systems  
+- Modernized UI via **Vanilla UI Plus**, **Vanilla UI Extension**, and **M.U.X.**  
+- Fully modular and customizable via **MO2**, with **Wabbajack** installation  
+- Hardcore survival gameplay with scarcity-based balancing  
+- Visual design reflects the author’s personal vision of an ideal *New Vegas*  
+
+---
+
+## Recommended Specs
+
+*A Blue Moon* is built with modern systems in mind. Performance may vary depending on your configuration, but here are the tested setups so far:
+
+### Development System
+- **CPU:** Ryzen 9 9800X3D  
+- **GPU:** Radeon 7900 GRE  
+- **RAM:** 64GB DDR5  
+- **Storage:** NVMe SSD  
+- **Resolution:** 1440p  
+- **Performance:** 100+ FPS (without New Vegas Reloaded)  
+
+> **Note:** With New Vegas Reloaded on my system, I get around 50-60 FPS using the included preset.  
+> If you wish, turning off exterior shadows can significantly improve performance.
+
+### Test System
+- **CPU:** Intel i7-12700K  
+- **GPU:** Radeon RX 6700 XT  
+- **RAM:** 32GB  
+- **Storage:** NVMe SSD  
+- **Resolution:** 1440p  
+- **Performance:** ~80 FPS (without New Vegas Reloaded)
+
+### Storage Recommendation
+- An **NVMe SSD** is highly recommended for smooth performance and reduced loading times.  
+- If NVMe is not available, a **SATA SSD** will suffice.  
+- Traditional HDDs are **not recommended**, as they may cause significant stuttering or extreme loading times.
+
+### Compatibility Notice
+At this time, the list has **not been tested on older or low-end hardware**.  
+As such, I cannot confidently provide minimum system requirements yet.
 
 ---
 
 ## Installation
 
-This list is designed for installation via [Wabbajack](https://www.wabbajack.org/). However, due to current file hosting limitations, a few required mods need to be downloaded manually. After downloading, place these files into your Wabbajack `downloads` folder.
+This list is intended for installation through **Wabbajack**. Some required files must be downloaded manually, as Pull Requests have not yet been completed.
 
-### Required Manual Downloads
+### Manual Downloads (Optional Backups)
 
-Please download and place the following files in your Wabbajack `downloads` folder before installation:
+Place these files in your Wabbajack downloads folder:
 
-- [Vanilla UI Extension 1.0](https://www.moddb.com/mods/vanilla-ui-extension/downloads/vanilla-ui-extension-10)  
-- [Vanilla UI Plus – NV (Mirror 1)](https://www.moddb.com/mods/vanilla-ui-plus/downloads/vanilla-ui-plus-nv)  
-- [Vanilla UI Plus – NV (Mirror 2)](https://www.moddb.com/mods/vanilla-ui-plus/downloads/vanilla-ui-plus-nv)  
-- [SecuritronHD by macintroll](https://drive.google.com/file/d/1ci3O7sX-e4YOk0y2_-4Jd2IlDC30hBJf/view)  
-- [Ghouls Retexture by macintroll](https://drive.google.com/file/d/1NR506TBf_flkbwlhpyvNEEb1EX3MrUYv/view)
+- [Vanilla UI Extension 1.0](#)  
+- [Vanilla UI Plus – NV (Mirror 1)](#)  
+- [Vanilla UI Plus – NV (Mirror 2)](#)  
+- [SecuritronHD by macintroll](#)  
+- [Ghouls Retexture by macintroll](#)  
 
-> Note: The Securitron and Ghoul retextures by *macintroll* must be downloaded manually due to external hosting limits. These files are essential for the intended visual fidelity of this list.
+**Note:** If you encounter issues with Wabbajack’s auto-download, these files are essential for achieving the intended visual fidelity.
 
 ---
 
@@ -40,62 +97,123 @@ Please download and place the following files in your Wabbajack `downloads` fold
 
 ### BSA Decompressor
 
-Included in the tools folder is a BSA decompressor (credit to the original creator). This utility can be used to recompress the game’s archive files into a format better optimized for performance. Use it if you experience stuttering or long load times.
+A **BSA Decompressor** is included in the tools folder (credit to the original author). It can help improve performance by recompressing archive files. Use it if you experience:
+
+- Game stuttering  
+- Long loading times
+
+---
 
 ### New Vegas Reloaded (NVR)
 
-This modlist supports New Vegas Reloaded, and presets are included. To install:
+This list supports **New Vegas Reloaded** and includes compatible presets.
 
-1. Join the [Elder Scrolls Reloaded Discord](https://discord.gg/7w7X5Y5).
-2. Download the most recent New Vegas-compatible build.
-3. Install it manually as instructed in their documentation.
+To install NVR:
 
-The list functions with or without NVR, but was built with it in mind.
+1. Join the [Elder Scrolls Reloaded Discord]
+2. Download the latest *Ready* build  
+3. Follow their documentation to install manually
 
----
+NVR is optional but recommended. Presets are included, but NVR-related mods are disabled by default.
 
-### Troubleshooting Installation Script
+Included NVR Presets:  
+- H2O  
+- Caffeine
 
-If the `InstalScript.vd` file fails to run or throws an error, open the file in a text editor and ensure that the line beginning with `run process` is entirely lowercase. Capitalizing `Run Process` will cause the script to fail during Wabbajack installation.
-## Known Issues and Notes
-
-This is a very early build of *A Blue Moon*, so bugs are expected. Any help in identifying issues is appreciated.
-
-If you encounter any serious bugs or crashes, please report them so I can patch them quickly.
-
----
-
-## Feedback and Support
-
-*A Blue Moon* is a personal project and still under active development. I'm open to suggestions, bug reports, and general feedback. You can open an issue here or reach out directly.
-
-Also note: This is my **first ever modding project**. I’m still learning as I go, and this has been a huge step out of my comfort zone. Thanks for your patience and support.
+If using NVR, make sure:  
+- Cartographer is enabled  
+- Enable NVR mods in **MO2**  
+- Optionally enable:  
+  - `Caffeine PBR Disabler`  
+  - `Caffeine NVR Cinema Disabler`
 
 ---
 
-## Special Thanks
+## Troubleshooting
 
-- Huge thanks to **macintroll** for allowing the use of his incredible high-resolution retextures for both **Securitrons** and **Ghouls**.  
-- Huge thanks to **Rage** for all the effort, time, and patience in teaching me and hand-holding me through all my dumb questions.  
-  Like seriously, Rage — thank you for encouraging me to begin this project and helping me each step of the way. Without your help, it would've never made it this far.  
-- Thanks to **Salamand3r** for putting together the wonderfully broken NVR setup for me — it wouldn’t be the same without it.  
-- Credit to the authors of LoneStar, Vicious Wastes, Vanilla UI Plus, and all the mods used in this list.  
-- Thanks to the Wabbajack team and the larger FNV modding community for making a project like this possible.
+### Installation Script Issue
+
+If `InstalScript.vdf` fails to install:
+
+- Open the file in a text editor  
+- Ensure the line beginning with `run process` is entirely lowercase  
+  - `Run Process` → Incorrect  
+  - `run process` → Correct  
+
+---
+
+## Known Issues & Notes
+
+- This is an early build, so bugs are expected  
+- Report any serious bugs or crashes via GitHub Issues  
+- Feedback is highly appreciated to shape future updates  
+
+---
+
+## Feedback & Support
+
+This is a personal project and my first ever modlist. I’m learning as I go—please be patient.  
+Feel free to open issues, submit suggestions, or contact me directly.
 
 ---
 
 ## Final Thoughts
 
-*A Blue Moon* is meant to breathe new life into Fallout: New Vegas without losing its soul. It's not perfect yet—but with your feedback and patience, it will get there.
+*A Blue Moon* was built to breathe new life into *Fallout: New Vegas* without losing its soul. It’s not perfect, but with your help, it will improve over time.
 
-Thanks for playing.
+---
 
 ## Additional Notes
 
-- **DXVK Compatibility:** This list includes **DXVK** in the `StockGame` folder to help resolve **alt-tabbing issues**. If this causes problems on your system (such as crashes or rendering glitches), simply delete `d3d9.dll` and `dxvk.conf` from that folder to disable it.
+### DXVK Compatibility
 
-- **New Vegas Reloaded (NVR):** The list currently ships with **NVR additions enabled by default**. If you're not using New Vegas Reloaded, **disable those mods** in MO2. This will be fixed in the next compilation.
+DXVK is included in the `stockgame` folder to resolve alt-tabbing issues.  
+If you experience issues (crashes, visual bugs), delete `d3d9.dll` and `dxvk.conf` from that folder.
 
-- **Gameplay State:** The gameplay portion of the list is still **very much a work in progress**. What's included now is a **barebones setup** for balance and mechanics. It's intended to serve as a framework for the full experience. Your feedback on how it *feels* is incredibly valuable—this is nowhere near final, and nothing is set in stone yet.
+### Gameplay State
 
-- **Alternate Hardcore Profiles:** A few **alternate, hardcore-focused profiles** are included in **MO2** for players interested in testing different styles of gameplay. These should be fully patched and functional, but keep in mind: **they haven't been thoroughly playtested yet**. Feel free to explore them and let me know what works and what doesn't.
+The current gameplay setup is barebones and not final.  
+It acts as a framework for future mechanics and balance tuning.  
+Your feedback on gameplay feel is incredibly valuable.
+
+### Alternate Hardcore Profiles
+
+Several alternate survival profiles are included in **MO2**.  
+They are fully patched, but not thoroughly playtested.  
+Feel free to experiment and provide feedback.
+
+---
+
+## Changelog
+
+### Version 0.0.4 – 2025-07-27
+
+- Added B42 Leaning  
+- Added Hardcore Forever  
+- Re-added Macintroll’s Ghoul Retexture  
+- Made miscellaneous items weightless (temporary fix until a lockpick-only solution)  
+- Fixed Strip Gatekeeper dialogue bug  
+- Remade LODs for new quarry retexture
+- Added Mojave Arsenal
+
+This update is probably save-safe.
+
+---
+
+## Special Thanks
+
+- **macintroll** – For allowing the use of his retextures  
+- **Rage** – For guidance, support, and constant encouragement throughout this project.  
+  Rage, you have no idea how much your continued help has pushed this forward.  
+  The hours you spent patiently guiding me, answering all my questions no matter how dumb.  
+  I truly appreciate it.
+- **Salamand3r** – For providing NVR presets and setup support  
+- **Mod Authors** – Of **LoneStar**, **Vicious Wastes**, **Vanilla UI Plus**, and all others included in the list  
+
+---
+
+## Thank You
+
+Thank YOU for reading this and enjoy playing A Blue Moon!
+
+
