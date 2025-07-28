@@ -186,15 +186,55 @@ Feel free to experiment and provide feedback.
 
 ## Changelog
 
-### Version 0.0.4 – 2025-07-27
+### Version 0.0.4
 
-- Added B42 Leaning  
-- Added Hardcore Forever  
-- Re-added Macintroll’s Ghoul Retexture  
-- Made miscellaneous items weightless (temporary fix until a lockpick-only solution)  
-- Fixed Strip Gatekeeper dialogue bug  
-- Remade LODs for new quarry retexture
-- Added Mojave Arsenal
+**Summary**  
+- Added: 40 mods  
+- Removed: 4 mods  
+
+---
+
+### Added Mods
+- Accidental Discharge  
+- B42 Descriptions (Pip-Info)  
+- B42 Dynamic Pip-Boy – Bouncy Natural Buttons (ESPless)  
+- B42 True Leaning – Contextual (ESPless)  
+- Benny Encounter Improvements  
+- Caffeine NVR Cinema Disabler  
+- Caffeine PBR Disabler  
+- Challenges Tracker and Rewards Hints (ESPless)  
+- ELITE .45 Auto Pistol Animation Overhaul (kNVSE)  
+- ghouls  
+- H2O  
+- Hardcore Forever  
+- High Priority LOD  
+- High Priority LOD Mojave Flora Patch  
+- Immersive Fast Travel Encounters  
+- Immersive Karma  
+- Immersive Sleeping Encounters  
+- Improved Lighting Shaders  
+- INI Config – Gun Runners' Arsenal Merged  
+- ML Utilities Checker  
+- Mojave Arsenal  
+- Mr. House Upscale  
+- No Stealthboy In Power Armor  
+- NVR Ready  
+- Other Profiles Requirements_separator  
+- Physically Based Terminals  
+- S6S Immersive Fast Travel Hardcore Patch  
+- Shotgun Buffs  
+- Sweet 6 Shooter Perks – TTW – NV  
+- Sweet Dynamic Detection System  
+- Townie Names  
+- Venom Not Poison  
+- xLODGEN OUTPUT  
+
+---
+
+### Removed Mods
+- Character Kit Remake Simple Character Exp  
+- Simple Character Expansions – YUPDate  
+
 
 This update is not save-safe.
 
