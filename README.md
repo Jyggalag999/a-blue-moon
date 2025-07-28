@@ -196,7 +196,7 @@ Feel free to experiment and provide feedback.
 - Remade LODs for new quarry retexture
 - Added Mojave Arsenal
 
-This update is probably save-safe.
+This update is not save-safe.
 
 ---
 
